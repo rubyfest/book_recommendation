@@ -1,1 +1,1 @@
-streamlit, pandas, pyarrow, numpy
+streamlit; pandas; pyarrow; numpy
