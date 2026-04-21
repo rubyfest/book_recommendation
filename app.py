@@ -9,7 +9,7 @@ st.set_page_config(page_title="BookBestie", page_icon="📚", layout="wide")
 @st.cache_data
 def load_data():
     # Points to the folder you downloaded
-    df = pd.read_parquet("book_master_data_parquet")
+    df = pd.read_parquet("full_book_master_data")
     return df
 
 df = load_data()
